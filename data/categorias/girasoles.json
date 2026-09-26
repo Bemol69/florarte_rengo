@@ -1,0 +1,10 @@
+{
+  "nombre": "Girasoles",
+  "orden": 30,
+  "visible": true,
+  "productos": [
+    "ramo-10-girasoles-6-rosas",
+    "box-redondo-6-girasoles",
+    "box-redondo-girasoles"
+  ]
+}

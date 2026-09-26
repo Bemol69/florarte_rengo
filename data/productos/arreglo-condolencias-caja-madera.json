@@ -1,0 +1,16 @@
+{
+  "nombre": "Arreglo en caja de madera",
+  "precio": 20000,
+  "foto": "/img/productos/arreglo-condolencias-caja-madera.jpg",
+  "descripcion": "Arreglo de condolencias con rosas, lilium y crisantemos en caja de madera. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas",
+    "Lilium",
+    "Crisantemos",
+    "Caja de madera"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 250
+}

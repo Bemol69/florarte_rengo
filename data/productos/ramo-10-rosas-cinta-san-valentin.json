@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo 10 rosas con cinta",
+  "precio": 36000,
+  "foto": "/img/productos/ramo-10-rosas-cinta-san-valentin.jpg",
+  "descripcion": "Ramo de mano con 10 rosas rojas ecuatorianas y cinta con mensaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "10 rosas rojas ecuatorianas",
+    "Cinta con mensaje"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 50
+}

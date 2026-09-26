@@ -1,0 +1,11 @@
+{
+  "nombre": "Box y cajas",
+  "orden": 40,
+  "visible": true,
+  "productos": [
+    "box-rectangular-6-rosas-ferrero",
+    "box-redondo-9-rosas",
+    "box-redondo-6-girasoles",
+    "box-redondo-girasoles"
+  ]
+}

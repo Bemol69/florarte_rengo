@@ -1,0 +1,15 @@
+{
+  "nombre": "Box rectangular 6 rosas + Ferrero",
+  "precio": 38000,
+  "foto": "/img/productos/box-rectangular-6-rosas-ferrero.jpg",
+  "descripcion": "Caja rectangular con 6 rosas envueltas y chocolates Ferrero Rocher. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "6 rosas",
+    "Ferrero Rocher 8 unidades",
+    "Caja rectangular con cinta"
+  ],
+  "etiqueta": "Más pedido",
+  "agotado": false,
+  "visible": true,
+  "orden": 10
+}

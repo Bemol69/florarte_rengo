@@ -1,0 +1,13 @@
+{
+  "nombre": "Ferrero Rocher 4 unidades",
+  "precio": 5000,
+  "foto": "/img/productos/ferrero-rocher-4.jpg",
+  "descripcion": "Complemento ideal para cualquier ramo.",
+  "incluye": [
+    "Ferrero Rocher 4 unidades"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 320
+}

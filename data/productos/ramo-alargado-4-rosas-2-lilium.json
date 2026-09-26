@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo alargado 4 rosas + 2 lilium",
+  "precio": 21000,
+  "foto": "/img/productos/ramo-alargado-4-rosas-2-lilium.jpg",
+  "descripcion": "Ramo alargado de rosas rojas y lilium blancos. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "4 rosas",
+    "2 lilium"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 80
+}

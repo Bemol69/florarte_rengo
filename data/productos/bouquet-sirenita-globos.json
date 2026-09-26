@@ -1,0 +1,13 @@
+{
+  "nombre": "Bouquet de globos Sirenita",
+  "precio": 10000,
+  "foto": "/img/productos/bouquet-sirenita-globos.jpg",
+  "descripcion": "Bouquet de globos temático. Colores según disponibilidad. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Globos temáticos"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 330
+}

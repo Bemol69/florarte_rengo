@@ -1,0 +1,13 @@
+{
+  "nombre": "Destacados",
+  "orden": 10,
+  "visible": true,
+  "productos": [
+    "box-rectangular-6-rosas-ferrero",
+    "ramo-alargado-10-rosas-azules",
+    "ramo-1-rosa-azul-hotwheels",
+    "cojin-rosas-y-lisianthus",
+    "ramo-10-girasoles-6-rosas",
+    "ramo-20-rosas"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "nombre": "Cojín de rosas pastel",
+  "precio": 60000,
+  "foto": "/img/productos/cojin-rosas-pastel.jpg",
+  "descripcion": "Cojín de condolencias con rosas en tonos pastel, gypsophila y follaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas en tonos pastel",
+    "Gypsophila",
+    "Follaje"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 220
+}

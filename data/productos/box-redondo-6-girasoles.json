@@ -1,0 +1,14 @@
+{
+  "nombre": "Box redondo 6 girasoles",
+  "precio": 30000,
+  "foto": "/img/productos/box-redondo-6-girasoles.jpg",
+  "descripcion": "Caja redonda con 6 girasoles y cinta. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "6 girasoles",
+    "Caja redonda con cinta"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 120
+}

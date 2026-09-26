@@ -1,0 +1,15 @@
+{
+  "nombre": "Box redondo girasoles",
+  "precio": 30000,
+  "foto": "/img/productos/box-redondo-girasoles.jpg",
+  "descripcion": "Caja redonda negra con girasoles y gypsophila. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Girasoles",
+    "Gypsophila",
+    "Caja redonda"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 130
+}

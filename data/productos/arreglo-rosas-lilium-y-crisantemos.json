@@ -1,0 +1,16 @@
+{
+  "nombre": "Arreglo rosas, lilium y crisantemos",
+  "precio": 48000,
+  "foto": "/img/productos/arreglo-rosas-lilium-y-crisantemos.jpg",
+  "descripcion": "Arreglo alto de rosas blancas y rosadas, lilium y crisantemos en caja de madera. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas",
+    "Lilium",
+    "Crisantemos",
+    "Caja de madera"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 240
+}

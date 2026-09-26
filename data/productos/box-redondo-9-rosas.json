@@ -1,0 +1,14 @@
+{
+  "nombre": "Box redondo 9 rosas",
+  "precio": 38000,
+  "foto": "/img/productos/box-redondo-9-rosas.jpg",
+  "descripcion": "Caja redonda con 9 rosas rojas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "9 rosas",
+    "Caja redonda"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 100
+}

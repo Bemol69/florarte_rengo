@@ -1,0 +1,13 @@
+{
+  "nombre": "Chocolate corazón",
+  "precio": 11000,
+  "foto": "/img/productos/chocolate-corazon.jpg",
+  "descripcion": "Caja corazón de chocolates Ferrero Rocher para acompañar tu arreglo.",
+  "incluye": [
+    "Caja corazón Ferrero Rocher"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 310
+}

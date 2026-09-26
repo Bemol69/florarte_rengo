@@ -1,0 +1,16 @@
+{
+  "nombre": "Arreglo rosas blancas y lilium",
+  "precio": 57000,
+  "foto": "/img/productos/arreglo-rosas-blancas-y-lilium.jpg",
+  "descripcion": "Arreglo de condolencias con rosas blancas, lilium y gypsophila en base de madera. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas blancas",
+    "Lilium",
+    "Gypsophila",
+    "Base de madera"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 210
+}

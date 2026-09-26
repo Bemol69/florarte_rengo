@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo 20 rosas",
+  "precio": 72000,
+  "foto": "/img/productos/ramo-20-rosas.jpg",
+  "descripcion": "Ramo de 20 rosas rojas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "20 rosas",
+    "Papel decorativo"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 40
+}

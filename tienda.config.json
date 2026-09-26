@@ -1,0 +1,33 @@
+{
+  "_ayuda": "Datos fijos de la tienda (los define el desarrollador). Los datos de contacto y portada van en data/ajustes.json, que el cliente edita desde /admin.",
+  "nombre": "Florarte Rengo",
+  "marca_a": "Florarte",
+  "marca_b": "Rengo",
+  "rubro": "Florería",
+  "schema_tipo": "Florist",
+  "seo_titulo": "Florería en Rengo | Florarte · Ramos y arreglos florales",
+  "seo_descripcion": "Florería en Rengo: ramos de rosas, girasoles, box con chocolates y arreglos de condolencias. Eventos, bodas y empresas. Pide por WhatsApp con despacho a domicilio.",
+  "github_repo": "Bemol69/florarte_rengo",
+  "site_url": "https://florarte-rengo.vercel.app",
+  "google_verificacion": "",
+  "hero": [
+    { "foto": "img/productos/ramo-alargado-10-rosas-azules.jpg", "alt": "Ramo alargado de 10 rosas azules de Florarte Rengo" },
+    { "foto": "img/productos/cojin-rosas-y-lisianthus.jpg", "alt": "Arreglo de rosas rojas y lisianthus" },
+    { "foto": "img/productos/box-rectangular-6-rosas-ferrero.jpg", "alt": "Box rectangular con rosas y chocolates Ferrero" }
+  ],
+  "fuentes": { "titulos": "Playfair Display", "texto": "Nunito Sans" },
+  "colores": {
+    "fondo": "#FFFAF3",
+    "primario": "#96672B",
+    "primario_oscuro": "#7A5220",
+    "primario_claro": "#F5EADB",
+    "secundario": "#6B7A3A",
+    "secundario_claro": "#EFF2E3",
+    "acento": "#B84A6E",
+    "acento_claro": "#FBE8EF",
+    "tinta": "#3A2A1A",
+    "tinta_suave": "#6E5A45",
+    "extra": "#D98A5F",
+    "dorado": "#C9A24A"
+  }
+}

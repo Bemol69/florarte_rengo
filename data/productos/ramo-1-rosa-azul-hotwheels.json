@@ -1,0 +1,15 @@
+{
+  "nombre": "Ramo 1 rosa azul + auto Hot Wheels",
+  "precio": 10000,
+  "foto": "/img/productos/ramo-1-rosa-azul-hotwheels.jpg",
+  "descripcion": "Mini ramo con rosa azul y un auto Hot Wheels (modelo según disponibilidad). Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "1 rosa azul",
+    "Auto Hot Wheels",
+    "Papel negro"
+  ],
+  "etiqueta": "Novedad",
+  "agotado": false,
+  "visible": true,
+  "orden": 30
+}

@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo alargado 3 rosas",
+  "precio": 12000,
+  "foto": "/img/productos/ramo-alargado-3-rosas.jpg",
+  "descripcion": "Ramo alargado de 3 rosas con gypsophila. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "3 rosas",
+    "Gypsophila"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 60
+}

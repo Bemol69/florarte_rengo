@@ -1,0 +1,14 @@
+{
+  "nombre": "Chocolates Ferrero 12 unidades",
+  "precio": 12000,
+  "foto": "/img/productos/chocolate-ferrero-12.jpg",
+  "descripcion": "Acompaña tus arreglos florales con chocolates Ferrero.",
+  "incluye": [
+    "Ferrero Rocher 12 unidades",
+    "Moño de regalo"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 300
+}

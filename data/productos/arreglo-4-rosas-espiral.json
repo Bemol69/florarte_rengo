@@ -1,0 +1,15 @@
+{
+  "nombre": "Arreglo 4 rosas espiral",
+  "precio": 15000,
+  "foto": "/img/productos/arreglo-4-rosas-espiral.jpg",
+  "descripcion": "Arreglo de 4 rosas blancas en espiral con follaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "4 rosas",
+    "Follaje",
+    "Papel y cinta"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 260
+}
