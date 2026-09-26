@@ -1,11 +1,10 @@
 {
-  "nombre": "Chocolates y globos",
+  "nombre": "Chocolates",
   "orden": 60,
   "visible": true,
   "productos": [
     "chocolate-ferrero-12",
     "chocolate-corazon",
-    "ferrero-rocher-4",
-    "bouquet-sirenita-globos"
+    "ferrero-rocher-4"
   ]
 }
