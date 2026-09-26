@@ -1,0 +1,15 @@
+{
+  "nombre": "Lilium, gerbera y mini rosas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-lilium-gerbera-mini-rosas.jpg",
+  "descripcion": "Ramo de lilium, gerbera y mini rosas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Lilium",
+    "Gerbera",
+    "Mini rosas"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 700
+}

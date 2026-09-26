@@ -1,0 +1,14 @@
+{
+  "nombre": "Box flores mixtas",
+  "precio": 0,
+  "foto": "/img/productos/box-flores-mixtas.jpg",
+  "descripcion": "Caja con flores mixtas de temporada. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Flores mixtas",
+    "Caja con cinta"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 690
+}

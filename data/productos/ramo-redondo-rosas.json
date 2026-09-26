@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo redondo rosas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-redondo-rosas.jpg",
+  "descripcion": "Ramo redondo de rosas de colores con gypsophila. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas",
+    "Gypsophila"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 570
+}

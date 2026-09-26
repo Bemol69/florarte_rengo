@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo 3 rosas amarillas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-3-rosas-amarillas.jpg",
+  "descripcion": "Ramo de 3 rosas amarillas con follaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "3 rosas amarillas",
+    "Follaje"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 510
+}

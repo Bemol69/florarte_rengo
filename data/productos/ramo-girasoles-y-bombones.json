@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo girasoles y bombones",
+  "precio": 0,
+  "foto": "/img/productos/ramo-girasoles-y-bombones.jpg",
+  "descripcion": "Ramo de girasoles con bombones. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Girasoles",
+    "Bombones"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 630
+}

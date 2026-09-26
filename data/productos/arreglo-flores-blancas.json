@@ -1,0 +1,14 @@
+{
+  "nombre": "Arreglo de flores blancas",
+  "precio": 0,
+  "foto": "/img/productos/arreglo-flores-blancas.jpg",
+  "descripcion": "Arreglo de condolencias con flores blancas y rosas rojas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Flores blancas",
+    "Rosas rojas"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 770
+}

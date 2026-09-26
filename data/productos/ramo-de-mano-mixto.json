@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo de mano mixto",
+  "precio": 0,
+  "foto": "/img/productos/ramo-de-mano-mixto.jpg",
+  "descripcion": "Ramo de mano con gerberas y girasoles. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Gerberas",
+    "Girasoles"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 720
+}

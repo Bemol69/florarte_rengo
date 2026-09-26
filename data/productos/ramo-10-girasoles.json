@@ -1,0 +1,13 @@
+{
+  "nombre": "Ramo 10 girasoles",
+  "precio": 0,
+  "foto": "/img/productos/ramo-10-girasoles.jpg",
+  "descripcion": "Ramo de 10 girasoles. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "10 girasoles"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 610
+}

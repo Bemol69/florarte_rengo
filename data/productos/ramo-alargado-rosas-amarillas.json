@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo alargado rosas amarillas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-alargado-rosas-amarillas.jpg",
+  "descripcion": "Ramo alargado de rosas amarillas con gypsophila. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas amarillas",
+    "Gypsophila"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 550
+}

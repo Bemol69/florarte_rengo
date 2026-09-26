@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo de 1 rosa",
+  "precio": 0,
+  "foto": "/img/productos/ramo-1-rosa.jpg",
+  "descripcion": "Ramo de una rosa con gypsophila. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "1 rosa",
+    "Gypsophila"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 580
+}

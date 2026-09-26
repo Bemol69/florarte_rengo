@@ -1,0 +1,15 @@
+{
+  "nombre": "Bag corazón 3 girasoles",
+  "precio": 0,
+  "foto": "/img/productos/bag-corazon-3-girasoles.jpg",
+  "descripcion": "Bolsa corazón con 3 girasoles y peluche. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "3 girasoles",
+    "Peluche",
+    "Bolsa corazón"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 680
+}

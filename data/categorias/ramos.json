@@ -1,15 +1,22 @@
 {
-  "nombre": "Ramos de rosas",
+  "nombre": "Rosas",
   "orden": 20,
   "visible": true,
   "productos": [
     "ramo-alargado-10-rosas-azules",
     "ramo-1-rosa-azul-hotwheels",
     "ramo-20-rosas",
+    "ramo-30-rosas",
     "ramo-10-rosas-cinta-san-valentin",
+    "ramo-rosas-rojas",
+    "ramo-redondo-rosas",
+    "ramo-de-mano-rosas",
     "ramo-alargado-3-rosas",
-    "ramo-2-lilium-4-rosas",
-    "ramo-alargado-4-rosas-2-lilium",
-    "ramo-mixto-lisianthus-gerbera-rosa"
+    "ramo-3-rosas-rojas",
+    "ramo-3-rosas-amarillas",
+    "ramo-3-rosas-rosadas",
+    "ramo-rosas-amarillas",
+    "ramo-alargado-rosas-amarillas",
+    "ramo-1-rosa"
   ]
 }

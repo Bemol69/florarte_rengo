@@ -1,0 +1,14 @@
+{
+  "nombre": "Arreglo rosas y gerberas",
+  "precio": 0,
+  "foto": "/img/productos/arreglo-rosas-y-gerberas.jpg",
+  "descripcion": "Arreglo de rosas y gerberas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas",
+    "Gerberas"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 750
+}

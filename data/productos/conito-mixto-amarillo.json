@@ -1,0 +1,13 @@
+{
+  "nombre": "Conito mixto amarillo",
+  "precio": 0,
+  "foto": "/img/productos/conito-mixto-amarillo.jpg",
+  "descripcion": "Conito de flores mixtas en tonos amarillos. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Flores mixtas"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 760
+}

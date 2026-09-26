@@ -1,0 +1,13 @@
+{
+  "nombre": "Ramo 30 rosas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-30-rosas.jpg",
+  "descripcion": "Ramo de 30 rosas rojas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "30 rosas rojas"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 600
+}

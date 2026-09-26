@@ -1,0 +1,19 @@
+{
+  "nombre": "Ramos mixtos",
+  "orden": 35,
+  "visible": true,
+  "productos": [
+    "ramo-2-lilium-4-rosas",
+    "ramo-alargado-4-rosas-2-lilium",
+    "ramo-mixto-lisianthus-gerbera-rosa",
+    "arreglo-lilium",
+    "ramo-lilium-gerbera-mini-rosas",
+    "ramo-mixto",
+    "ramo-de-mano-mixto",
+    "ramo-rosas-rosadas-y-maule",
+    "ramo-rosas-rojas-y-maule",
+    "arreglo-rosas-y-gerberas",
+    "conito-mixto-amarillo",
+    "box-flores-mixtas"
+  ]
+}

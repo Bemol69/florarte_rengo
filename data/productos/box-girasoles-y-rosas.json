@@ -1,0 +1,15 @@
+{
+  "nombre": "Box girasoles y rosas",
+  "precio": 0,
+  "foto": "/img/productos/box-girasoles-y-rosas.jpg",
+  "descripcion": "Caja redonda con girasoles y rosas rojas. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Girasoles",
+    "Rosas rojas",
+    "Caja redonda"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 670
+}

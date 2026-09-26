@@ -1,0 +1,15 @@
+{
+  "nombre": "Box redondo 4 girasoles",
+  "precio": 0,
+  "foto": "/img/productos/box-redondo-4-girasoles.jpg",
+  "descripcion": "Caja redonda con 4 girasoles y lisianthus. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "4 girasoles",
+    "Lisianthus",
+    "Caja redonda"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 650
+}

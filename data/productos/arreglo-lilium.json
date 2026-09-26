@@ -1,0 +1,15 @@
+{
+  "nombre": "Arreglo de lilium",
+  "precio": 0,
+  "foto": "/img/productos/arreglo-lilium.jpg",
+  "descripcion": "Arreglo de lilium amarillos y naranjos con follaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Lilium",
+    "Follaje",
+    "Papel decorativo"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 500
+}

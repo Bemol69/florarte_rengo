@@ -1,0 +1,14 @@
+{
+  "nombre": "Box alargado girasoles",
+  "precio": 0,
+  "foto": "/img/productos/box-alargado-girasoles.jpg",
+  "descripcion": "Caja alargada con girasoles y cinta. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Girasoles",
+    "Caja alargada con cinta"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 660
+}

@@ -1,0 +1,15 @@
+{
+  "nombre": "Ramo rosas rojas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-rosas-rojas.jpg",
+  "descripcion": "Ramo de rosas rojas con gypsophila y follaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas rojas",
+    "Gypsophila",
+    "Follaje"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 590
+}

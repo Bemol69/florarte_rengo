@@ -1,0 +1,14 @@
+{
+  "nombre": "Girasol con maule",
+  "precio": 0,
+  "foto": "/img/productos/ramo-girasol-con-maule.jpg",
+  "descripcion": "Ramo de girasol con maule (margaritas). Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Girasol",
+    "Maule"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 640
+}

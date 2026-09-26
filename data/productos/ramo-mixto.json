@@ -1,0 +1,13 @@
+{
+  "nombre": "Ramo mixto",
+  "precio": 0,
+  "foto": "/img/productos/ramo-mixto.jpg",
+  "descripcion": "Ramo mixto de flores de temporada. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Flores mixtas"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 710
+}

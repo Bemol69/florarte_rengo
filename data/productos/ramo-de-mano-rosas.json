@@ -1,0 +1,14 @@
+{
+  "nombre": "Ramo de mano rosas",
+  "precio": 0,
+  "foto": "/img/productos/ramo-de-mano-rosas.jpg",
+  "descripcion": "Ramo de mano de rosas rojas con follaje. Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas rojas",
+    "Follaje"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 560
+}

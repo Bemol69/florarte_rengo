@@ -33,6 +33,9 @@ const EXTRAS = ['🍫 Ferrero Rocher 4 unid.', '🍫 Ferrero Rocher 12 unid.', '
 
 // ===== UTILIDADES =====
 const clp = (n) => '$' + n.toLocaleString('es-CL');
+// Precio 0 = "consultar precio" (productos que la florería cotiza por mensaje)
+const priceLabel = (n) => (n > 0 ? clp(n) : 'Consultar precio');
+const hasPrice = (p) => p.id !== CUSTOM.id && p.price > 0;
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const findProduct = (id) => (id === CUSTOM.id ? CUSTOM : PRODUCTS.find((p) => p.id === id));
@@ -88,7 +91,7 @@ function renderProducts(cat = currentCat) {
         ${p.desc ? `<p class="card__desc">${esc(p.desc)}</p>` : ''}
         <ul>${p.items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
         <div class="card__foot">
-          <span class="price">${clp(p.price)}</span>
+          <span class="price">${priceLabel(p.price)}</span>
           ${p.agotado
             ? `<a class="btn btn--ghost btn--sm" target="_blank" rel="noopener" href="${esc(waUrl(`Hola! ¿Tienen stock de ${p.name}? 🌸`))}">Consultar stock</a>`
             : `<button class="btn btn--primary btn--sm" data-order="${p.id}">Hacer pedido</button>`}
@@ -117,7 +120,7 @@ function renderRamoOptions() {
   fRamo.innerHTML =
     `<option value="${CUSTOM.id}">✨ ${CUSTOM.name} (a cotizar)</option>` +
     PRODUCTS.filter((p) => !p.agotado)
-      .map((p) => `<option value="${p.id}">${esc(p.name)} (${clp(p.price)})</option>`).join('');
+      .map((p) => `<option value="${p.id}">${esc(p.name)} (${p.price > 0 ? clp(p.price) : 'a cotizar'})</option>`).join('');
 }
 
 $('#fExtras').innerHTML = EXTRAS
@@ -134,9 +137,6 @@ function syncDelivery() {
   fFecha.min = min;
   if (fFecha.value && fFecha.value < min) fFecha.value = '';
 
-  // Pago en el local solo si retira presencialmente
-  [...fPago.options].find((o) => o.value === 'En el local').disabled = tipo !== 'retiro';
-  if (tipo !== 'retiro') fPago.value = 'Transferencia';
 
   // ADAPTAR: políticas de anticipación y pago del negocio
   $('#fHint').textContent = tipo === 'retiro'
@@ -166,9 +166,8 @@ function getOrder() {
 
 // *texto* = negrita y _texto_ = cursiva en WhatsApp
 function buildMessage(o) {
-  const custom = o.product.id === CUSTOM.id;
   const L = [`🌸✨ *PEDIDO #${orderNumber}* ✨🌸`, '━━━━━━━━━━━━━━━'];
-  L.push(`💐 *Arreglo:* ${o.product.name}${custom ? '' : ` (${clp(o.product.price)})`}`);
+  L.push(`💐 *Arreglo:* ${o.product.name}${hasPrice(o.product) ? ` (${clp(o.product.price)})` : ''}`);
   if (o.colores) L.push(`🎨 *Colores:* ${o.colores}`);
   if (o.extras.length) L.push(`🎀 *Extras:* ${o.extras.join(', ')}`);
   L.push(`🚚 *Entrega:* ${ENTREGAS[o.tipo]}`);
@@ -180,11 +179,11 @@ function buildMessage(o) {
   if (o.cliente) L.push(`🙋 *Envía:* ${o.cliente}`);
   L.push(`💳 *Pago:* ${o.pago}`);
   L.push('━━━━━━━━━━━━━━━');
-  L.push(custom ? '💰 *TOTAL: A cotizar*' : `💰 *TOTAL ARREGLO: ${clp(o.product.price)}*`);
+  L.push(hasPrice(o.product) ? `💰 *TOTAL ARREGLO: ${clp(o.product.price)}*` : '💰 *TOTAL: A cotizar*');
   const pendientes = [];
   if (o.extras.length) pendientes.push('extras');
   if (o.tipo !== 'retiro') pendientes.push('despacho');
-  if (pendientes.length && !custom) L.push(`_(+ ${pendientes.join(' y ')} a coordinar)_`);
+  if (pendientes.length && hasPrice(o.product)) L.push(`_(+ ${pendientes.join(' y ')} a coordinar)_`);
   L.push('');
   L.push('¡Hola Florarte! Quiero agendar este pedido 🌷');
   return L.join('\n');
@@ -200,7 +199,7 @@ function formatPreview(text) {
 function update() {
   const o = getOrder();
   $('#msgPreview').innerHTML = formatPreview(buildMessage(o));
-  $('#fTotal').textContent = o.product.id === CUSTOM.id ? 'A cotizar' : clp(o.product.price);
+  $('#fTotal').textContent = hasPrice(o.product) ? clp(o.product.price) : 'A cotizar';
 }
 
 function openModal(productId) {

@@ -172,7 +172,7 @@ const card = (p) => `
         ${p.descripcion ? `<p class="card__desc">${esc(p.descripcion)}</p>` : ''}
         <ul>${p.incluye.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
         <div class="card__foot">
-          <span class="price">${clp(p.precio)}</span>
+          <span class="price">${p.precio > 0 ? clp(p.precio) : 'Consultar precio'}</span>
           ${p.agotado
             ? `<a class="btn btn--ghost btn--sm" target="_blank" rel="noopener" href="${esc(`https://api.whatsapp.com/send?phone=${T.whatsapp}&text=${encodeURIComponent(`Hola! ¿Tienen stock de ${p.nombre}?`)}`)}">Consultar stock</a>`
             : `<button class="btn btn--primary btn--sm" data-order="${esc(p.id)}">Hacer pedido</button>`}
@@ -227,13 +227,14 @@ const jsonLd = {
           name: p.nombre,
           image: abs(p.foto),
           description: p.descripcion || p.incluye.join(', ') || p.nombre,
-          offers: {
+          // sin precio publicado ("consultar precio") no se declara oferta
+          offers: p.precio > 0 ? {
             '@type': 'Offer',
             price: p.precio,
             priceCurrency: 'CLP',
             availability: `https://schema.org/${p.agotado ? 'OutOfStock' : 'InStock'}`,
             seller: { '@id': `${SITE}/#tienda` },
-          },
+          } : undefined,
         },
       })),
     },

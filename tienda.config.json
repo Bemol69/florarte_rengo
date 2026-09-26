@@ -11,11 +11,23 @@
   "site_url": "https://florarte-rengo.vercel.app",
   "google_verificacion": "",
   "hero": [
-    { "foto": "img/productos/ramo-alargado-10-rosas-azules.jpg", "alt": "Ramo alargado de 10 rosas azules de Florarte Rengo" },
-    { "foto": "img/productos/cojin-rosas-y-lisianthus.jpg", "alt": "Arreglo de rosas rojas y lisianthus" },
-    { "foto": "img/productos/box-rectangular-6-rosas-ferrero.jpg", "alt": "Box rectangular con rosas y chocolates Ferrero" }
+    {
+      "foto": "img/productos/ramo-alargado-10-rosas-azules.jpg",
+      "alt": "Ramo alargado de 10 rosas azules de Florarte Rengo"
+    },
+    {
+      "foto": "img/productos/box-girasoles-y-rosas.jpg",
+      "alt": "Box de girasoles y rosas rojas de Florarte Rengo"
+    },
+    {
+      "foto": "img/productos/box-rectangular-6-rosas-ferrero.jpg",
+      "alt": "Box rectangular con rosas y chocolates Ferrero"
+    }
   ],
-  "fuentes": { "titulos": "Playfair Display", "texto": "Nunito Sans" },
+  "fuentes": {
+    "titulos": "Playfair Display",
+    "texto": "Nunito Sans"
+  },
   "colores": {
     "fondo": "#FFFAF3",
     "primario": "#96672B",
@@ -29,5 +41,13 @@
     "tinta_suave": "#6E5A45",
     "extra": "#D98A5F",
     "dorado": "#C9A24A"
-  }
+  },
+  "dias_schema": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ]
 }

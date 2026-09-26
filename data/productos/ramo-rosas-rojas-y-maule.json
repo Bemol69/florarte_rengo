@@ -1,0 +1,14 @@
+{
+  "nombre": "Rosas rojas y maule",
+  "precio": 0,
+  "foto": "/img/productos/ramo-rosas-rojas-y-maule.jpg",
+  "descripcion": "Ramo de rosas rojas con maule (margaritas). Foto referencial: algunos tonos de papel y flores pueden variar según disponibilidad.",
+  "incluye": [
+    "Rosas rojas",
+    "Maule"
+  ],
+  "etiqueta": "",
+  "agotado": false,
+  "visible": true,
+  "orden": 740
+}
